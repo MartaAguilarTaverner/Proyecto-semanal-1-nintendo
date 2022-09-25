@@ -1,0 +1,157 @@
+.container-red-control {
+    z-index: 2;
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.container-red-control-plus {
+    display: grid;
+    grid-row: 1 / 2;
+    background-color: rgb(241, 77, 77);
+    border-top-right-radius: 70px;
+    border-right: 1px solid black;
+    border-top: 4px solid black;
+}
+
+#red-plus {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#plus-inred {
+    grid-row: 2 / 3;
+    color: black;
+    margin-left: 5px;
+}
+
+.container-red-4button {
+    display: grid;
+    grid-row: 2 / 3;
+    background-color: rgb(241, 77, 77);
+}
+
+#red-fourbuttons-space {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#button-X {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    margin-left: 4px;
+}
+
+#button-X span {
+    margin-bottom: -1px;
+}
+
+#button-B {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    margin-left: 5px;
+}
+#button-B span {
+    margin-left: 1px;
+}
+
+#button-Y {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    margin-left: 8.5px;
+}
+
+#button-Y span {
+    margin-top: 2px;
+}
+
+#button-A {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+}
+
+#button-A span {
+    margin-bottom: 1px;
+}
+
+
+.container-red-joystick {
+    display: grid;
+    grid-row: 3 / 4;
+    background-color: rgb(241, 77, 77);
+}
+
+#control-joystick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#joystick {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border-style: double;
+    border-width: 5px;
+    background-color: #3E4447 ;
+}
+
+.container-red-homebutton {
+    display: grid;
+    grid-row: 4 / 5;
+    background-color: rgb(241, 77, 77);
+    border-bottom-right-radius: 70px;
+}
+
+#control-homebutton {
+    display: flex;
+    justify-content: center;
+}
+
+#homebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    border-color: grey;
+}
+
+#homebutton-house {
+    margin-bottom: -1px;
+    margin-left: 0.5px;
+}
