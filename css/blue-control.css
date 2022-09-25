@@ -1,0 +1,157 @@
+.container-blue-control {
+    z-index: 2;
+    display: grid;
+    grid-row: 1 / 5;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.container-blue-control-minus {
+    display: grid;
+    grid-row: 1 / 2;
+    background-color: #02C5E5;
+    border-top-left-radius: 70px;
+    border-left: 1px solid black;
+    border-top: 4px solid black;
+}
+
+#blue-minus {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#minus-inblue {
+    grid-row: 2 / 3;
+    margin-right: 5px;
+}
+
+.container-blue-control-joystick {
+    display: grid;
+    grid-row: 2 / 3;
+    background-color: #02C5E5;
+    
+}
+
+#control-joystick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#joystick {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border-style: double;
+    border-width: 5px;
+    background-color: #3E4447 ;
+}
+
+.container-blue-4buttons {
+    display: grid;
+    grid-row: 3 / 4;
+    background-color: #02C5E5;
+}
+
+#fourbuttons-space {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20% 20%;
+}
+
+#button-up {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    margin-left: 5px;
+}
+
+#button-up span {
+    margin-bottom: 2px;
+}
+
+#button-down {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    margin-left: 5px;
+}
+#button-down span {
+    margin-top: 2px;
+}
+
+#button-left {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+    margin-left: 8.5px;
+}
+
+#button-left span {
+    margin-right: 2px;
+}
+
+#button-right {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #3E4447;
+}
+
+#button-right span {
+    margin-left: 2px;
+}
+
+.container-blue-squarebutton {
+    display: grid;
+    grid-row: 4 / 5;
+    background-color: #02C5E5;
+    border-bottom-left-radius: 70px;
+}
+
+#squarebutton {
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 0.25rem;
+}
+
+#squarebutton-circle {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 15%;
+    background-color: #3E4447;
+    justify-content: center;
+}
+
+#circle {
+    display:flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-top: -0.85rem;
+}
