@@ -1,0 +1,53 @@
+body {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 53.6px 80.4px 90.5px 110.5px;
+    grid-template-columns: 120px 560px 120px;
+    width: 800px;
+    height: 350px;
+}
+
+.container-center-nintendo {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    background-color: black;
+}
+
+.container-center-outborder {
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+}
+
+#holeblue {
+    z-index: 1;
+    width: 50px;
+    background-color: white;
+    margin-left: -45px;
+}
+
+#holered {
+    z-index: 1;
+    width: 50px;
+    background-color: white;
+    margin-right:-45px;
+}
+
+#button-l {
+    z-index: 1;
+    background-color: black;
+}
+
+#button-r {
+    z-index: 1;
+    background-color: black;
+}
+
+
