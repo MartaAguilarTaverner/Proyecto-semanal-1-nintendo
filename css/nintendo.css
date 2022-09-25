@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 10px;
+    width: 100%;
 }
 
 #holeblue {
@@ -50,4 +51,32 @@ body {
     background-color: black;
 }
 
+.container-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
 
+.container-center-borderscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.screen {
+    height: 90%;
+    width: 90%;
+    background-color: rgb(32, 32, 32);
+    margin-bottom: 10px;
+}
+
+.screen:hover {
+    background-image: url('../img/nintendo-switch-logo-white.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 50%;
+}
